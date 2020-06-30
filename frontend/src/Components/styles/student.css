@@ -1,0 +1,75 @@
+body{
+  background-color: white;
+}
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+  margin: 10px;
+}
+.ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.card:hover{
+  background-color: #e0e0d0;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+button {
+    float: right;
+    border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+.card {
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: arial;
+    width: 100%;
+    opacity: 0.9;
+} 
+.card button:hover {
+    opacity: 0.7;
+}
+.card img{
+    width: 170px;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+div.card-body{
+    padding: 5px 10px;
+    width: 100%;
+}
+div.card-body .row{
+    width: 100%;
+}
+div.card-body p{
+    text-align: left;	
+    width: 100%;
+}
+
+h4{
+  opacity: 0.7;
+}
+h3{
+  font-weight: lighter;
+  color: black;
+  margin: 0%;
+  font-size: 120%;
+}
+
